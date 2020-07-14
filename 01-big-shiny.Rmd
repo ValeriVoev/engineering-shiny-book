@@ -19,7 +19,7 @@ Same goes for serving external dependencies: the application comes with its set 
 And that is probably one of the main reason why this package has become so successful over the years—with very little training, you can rapidly create a proof-of-concept (PoC) for a data-product, showcase an algorithm, or present your results in an elegant and accessible user interface. 
 
 The first version of `{shiny}` was published in 2012. 
-Since then, it has been one of the top project of the RStudio team. 
+Since then, it has been one of the top projects of the RStudio team. 
 At the time of writing these lines (April 2020), there are more than 4700 commits in the master branch of the GitHub repository, made by 46 contributors. 
 It is now downloaded around 400K times a month, according to [cranlogs](https://cranlogs.r-pkg.org/badges/shiny), and has `r length(devtools::revdep("shiny"))` reverse dependencies (i.e packages that depend on it), according to `revdep("shiny")` from `{devtools}` [@R-devtools].
 
